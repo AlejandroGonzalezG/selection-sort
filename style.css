@@ -1,0 +1,69 @@
+body {
+    background-color: green;
+    width: 100%;
+    height: 1000px;
+  }
+  
+  .numero {
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .pinta {
+    height: 20px;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .pintaAbajo {
+    align-self: flex-end !important;
+    height: 20px;
+    font-size: 18px;
+  }
+  
+  #div2,
+  input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    background-color: white;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+  }
+  
+  #input2 {
+    font-size: 10px;
+  }
+  
+  .card-body {
+    justify-content: center;
+  }
+  
+  .card {
+    background-color: white;
+    height: 94px;
+    width: 71px;
+    margin-right: 1rem;
+    border-radius: 10%;
+    margin-bottom: 10px;
+  }
+  
+  .container-cartas-row {
+    width: 100%;
+    height: 150px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .cards-sorted-container {
+    width: 100%;
+    height: 150px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+  }
